@@ -167,13 +167,13 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-footer .about-btn {
+footer nav a {
   display: block;
   background-color: #EF019F;
   transition: 1s;
   background: linear-gradient(to right, #EF019F 50%, #780150 100%);
   box-shadow: 0 0 20px #eee;
-  margin: 20px 0px 100px 650px;
+  margin: 55px 0px 105px 650px;
   cursor: pointer;
   width: 200px;
   height: 60px;
@@ -181,14 +181,15 @@ footer .about-btn {
   font-size: 1.8rem;
   border-radius: 15px;
   color: #E5E9EC;
+  text-decoration: none;
   padding-top: 1.5%;
   padding-left: 3.7%;
 }
-footer .about-btn:hover {
+footer nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
 }
 @media (max-width: 500px) {
-  footer .about-btn {
+  footer nav a {
     margin: 50px 0px 50px 150px;
     padding-top: 4%;
     padding-left: 10%;
@@ -201,7 +202,8 @@ header {
   background-image: url(../img/cover.png);
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
+  width: 100%;
   padding-bottom: 15%;
 }
 @media (max-width: 500px) {
@@ -245,7 +247,8 @@ header .tube-h3 h3 {
     font-size: 2.3rem;
   }
 }
-header .start-btn {
+header nav a {
+  text-decoration: none;
   display: block;
   background-color: #EF019F;
   transition: 1s;
@@ -262,11 +265,11 @@ header .start-btn {
   padding-top: 1.5%;
   padding-left: 4.5%;
 }
-header .start-btn:hover {
+header nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
 }
 @media (max-width: 500px) {
-  header .start-btn {
+  header nav a {
     font-size: 1.6rem;
     width: 120px;
     height: 60px;
