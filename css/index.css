@@ -173,26 +173,25 @@ footer nav a {
   transition: 1s;
   background: linear-gradient(to right, #EF019F 50%, #780150 100%);
   box-shadow: 0 0 20px #eee;
-  margin: 9% 0% 10% 45%;
+  margin: 9% 0% 10% 40%;
   cursor: pointer;
-  width: 200px;
-  height: 60px;
+  width: 20%;
+  height: 10%;
   font-weight: bold;
   font-size: 1.8rem;
   border-radius: 15px;
   color: #E5E9EC;
   text-decoration: none;
-  padding-top: 1.5%;
-  padding-left: 3.7%;
+  padding: 1% 0% 1% 6.5%;
 }
 footer nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
 }
 @media (max-width: 500px) {
   footer nav a {
-    margin: 50px 0px 50px 150px;
-    padding-top: 4%;
-    padding-left: 10%;
+    font-size: 1rem;
+    margin: 11% 0% 15% 40%;
+    padding: 2% 0% 2% 4.5%;
   }
 }
 body {
@@ -256,14 +255,13 @@ header nav a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 25% 0% 0% 70%;
   cursor: pointer;
-  width: 300px;
-  height: 70px;
+  width: 20%;
+  height: 30%;
   font-weight: 900;
-  font-size: 1.8rem;
-  border-radius: 30px;
+  font-size: 1.5rem;
+  border-radius: 50px;
   color: #E5E9EC;
-  padding-top: 2%;
-  padding-left: 5.5%;
+  padding: 3% 3% 3% 5.5%;
 }
 header nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
@@ -271,12 +269,16 @@ header nav a:hover {
 @media (max-width: 500px) {
   header nav a {
     font-size: 1.6rem;
-    width: 120px;
-    height: 60px;
+    width: 25%;
+    height: 10%;
     text-align: center;
-    padding-top: 2.45%;
-    padding-left: 2%;
-    margin: 100px 0px 0px 300px;
+    padding: 3%;
+    margin: 10% 0% 0% 65%;
+  }
+}
+@media (max-width: 800px) {
+  header nav a {
+    font-size: 1.3rem;
   }
 }
 .home .top-info {
