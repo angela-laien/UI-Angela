@@ -8,7 +8,7 @@
   text-align: center;
 }
 .text-border-box {
-  height: 400px;
+  height: 80%;
   width: 33%;
   border: 3px solid #E5E9EC;
 }
@@ -173,7 +173,7 @@ footer nav a {
   transition: 1s;
   background: linear-gradient(to right, #EF019F 50%, #780150 100%);
   box-shadow: 0 0 20px #eee;
-  margin: 55px 0px 105px 650px;
+  margin: 9% 0% 10% 45%;
   cursor: pointer;
   width: 200px;
   height: 60px;
@@ -254,16 +254,16 @@ header nav a {
   transition: 1s;
   background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 100px 0px 0px 1000px;
+  margin: 25% 0% 0% 70%;
   cursor: pointer;
-  width: 250px;
-  height: 60px;
+  width: 300px;
+  height: 70px;
   font-weight: 900;
   font-size: 1.8rem;
   border-radius: 30px;
   color: #E5E9EC;
-  padding-top: 1.5%;
-  padding-left: 4.5%;
+  padding-top: 2%;
+  padding-left: 5.5%;
 }
 header nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
@@ -301,7 +301,7 @@ header nav a:hover {
   }
 }
 .home .top-info .enjoy-text {
-  height: 400px;
+  height: 80%;
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-right: 1%;
@@ -369,20 +369,25 @@ header nav a:hover {
     width: 40%;
   }
 }
+@media (max-width: 500px) {
+  .home .top-info .enjoy-text .logo .bottom-logo {
+    margin-bottom: 10%;
+  }
+}
 .home .top-info .find-text {
-  height: 400px;
+  height: 80%;
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-left: 1%;
 }
 .home .top-info .find-text p {
   font-size: 1.8rem;
-  padding: 2% 20% 5% 20%;
+  padding: 2.5% 20% 19.5% 20%;
 }
 @media (max-width: 500px) {
   .home .top-info .find-text p {
     font-size: 1.2rem;
-    padding: 2% 15% 5% 15%;
+    padding: 2% 15% 19.5% 15%;
   }
 }
 .home .bottom-info {
@@ -407,34 +412,34 @@ header nav a:hover {
   }
 }
 .home .bottom-info .see-text {
-  height: 400px;
+  height: 80%;
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-right: 1%;
 }
 .home .bottom-info .see-text p {
   font-size: 1.8rem;
-  padding: 0% 20% 5% 20%;
+  padding: 1% 20% 20% 20%;
 }
 @media (max-width: 500px) {
   .home .bottom-info .see-text p {
     font-size: 1.3rem;
-    padding: 0% 15% 5% 15%;
+    padding: 0% 15% 10% 15%;
   }
 }
 .home .bottom-info .share-text {
-  height: 400px;
+  height: 80%;
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-left: 1%;
 }
 .home .bottom-info .share-text p {
   font-size: 1.8rem;
-  padding: 5% 20% 5% 20%;
+  padding: 5% 20% 21.8% 20%;
 }
 @media (max-width: 500px) {
   .home .bottom-info .share-text p {
     font-size: 1.35rem;
-    padding: 0% 15% 5% 15%;
+    padding: 0% 15% 44.5% 15%;
   }
 }
