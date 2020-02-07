@@ -61,20 +61,21 @@ header {
     font-size: 1.5rem;
     border-radius: 50px;
     color: @whammy-white;
-    padding: 3% 3% 3% 5.5%;
+    padding: 3% 3% 3% 5%;
     &:hover{
         background: linear-gradient(to right, @popstar-purple 50%, @plush-pink 100%);
     }
+    @media @tablet {
+      font-size: 1.3rem;
+      padding: 2.5% 0% 2.5% 4.5%;
+    }
     @media @phone {
-      font-size: 1.6rem;
-      width: 25%;
+      font-size: 1.3rem;
+      width: 20%;
       height: 10%;
       text-align: center;
       padding: 3%;
       margin: 10% 0% 0% 65%;
-    }
-    @media @tablet {
-      font-size: 1.3rem;
     }
   }
   padding-bottom: 15%;
@@ -99,6 +100,13 @@ header {
     .enjoy-text {
       .text-border-box;
       margin-right: 1%;
+      min-height: 525px;
+      @media @tablet{
+        min-height: 554px;
+      }
+      @media @phone {
+        min-height: 420px;
+      }
 
       p {
         font-size: 1.8rem;
@@ -113,6 +121,10 @@ header {
         .top-logo {
           .soundcloud {
             padding: 0% 2% 2% 0%;
+            width: 30%;
+            @media @tablet {
+              width: 27%;
+            }
             @media @phone {
               width: 25%;
             }
@@ -125,6 +137,10 @@ header {
           }
           .apple {
             padding: 0% 0% 1% 1.5%;
+            width: 48%;
+            @media @tablet {
+              width: 47%;
+            }
             @media @phone {
               width: 45%;
             }
@@ -137,13 +153,20 @@ header {
         .bottom-logo {
           .youtube {
             padding: 0% 2% 2% 0%;
+            @media @tablet {
+              width: 36%;
+              padding-top: 10%;
+            }
             @media @phone {
               width: 35%;
             }
           }
 
           .arrow2 {
-            padding-bottom: 5%;
+            padding-bottom: 7%;
+            @media @tablet {
+              width: 18%;
+            }
             @media @phone {
               width: 15%;
             }
@@ -151,6 +174,10 @@ header {
 
           .spotify {
             padding: 3% 0% 1% 1.5%;
+            width: 48%;
+            @media @tablet {
+              width: 43%;
+            }
             @media @phone {
               width: 40%;
             }
@@ -166,6 +193,13 @@ header {
     .find-text {
       .text-border-box;
       margin-left: 1%;
+      min-height: 525px;
+      @media @tablet{
+        min-height: 554px;
+      }
+      @media @phone {
+        min-height: 420px;
+      }
 
       p {
         font-size: 1.8rem;
@@ -197,6 +231,13 @@ header {
     .see-text {
       .text-border-box;
       margin-right: 1%;
+      min-height: 525px;
+      @media @tablet{
+        min-height: 554px;
+      }
+      @media @phone {
+        min-height: 420px;
+      }
 
       p {
         font-size: 1.8rem;
@@ -211,6 +252,13 @@ header {
     .share-text {
       .text-border-box;
       margin-left: 1%;
+      min-height: 525px;
+      @media @tablet{
+        min-height: 554px;
+      }
+      @media @phone {
+        min-height: 420px;
+      }
 
       p {
         font-size: 1.8rem;

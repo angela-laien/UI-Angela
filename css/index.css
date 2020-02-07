@@ -182,10 +182,17 @@ footer nav a {
   border-radius: 15px;
   color: #E5E9EC;
   text-decoration: none;
-  padding: 1% 0% 1% 6.5%;
+  padding: 1% 0% 1% 5%;
 }
 footer nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
+}
+@media (max-width: 800px) {
+  footer nav a {
+    font-size: 1.6rem;
+    margin: 11% 0% 15% 40%;
+    padding: 2% 0% 2% 4.5%;
+  }
 }
 @media (max-width: 500px) {
   footer nav a {
@@ -261,24 +268,25 @@ header nav a {
   font-size: 1.5rem;
   border-radius: 50px;
   color: #E5E9EC;
-  padding: 3% 3% 3% 5.5%;
+  padding: 3% 3% 3% 5%;
 }
 header nav a:hover {
   background: linear-gradient(to right, #780150 50%, #EF019F 100%);
 }
+@media (max-width: 800px) {
+  header nav a {
+    font-size: 1.3rem;
+    padding: 2.5% 0% 2.5% 4.5%;
+  }
+}
 @media (max-width: 500px) {
   header nav a {
-    font-size: 1.6rem;
-    width: 25%;
+    font-size: 1.3rem;
+    width: 20%;
     height: 10%;
     text-align: center;
     padding: 3%;
     margin: 10% 0% 0% 65%;
-  }
-}
-@media (max-width: 800px) {
-  header nav a {
-    font-size: 1.3rem;
   }
 }
 .home .top-info {
@@ -307,6 +315,17 @@ header nav a:hover {
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-right: 1%;
+  min-height: 525px;
+}
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text {
+    min-height: 554px;
+  }
+}
+@media (max-width: 500px) {
+  .home .top-info .enjoy-text {
+    min-height: 420px;
+  }
 }
 .home .top-info .enjoy-text p {
   font-size: 1.8rem;
@@ -320,6 +339,12 @@ header nav a:hover {
 }
 .home .top-info .enjoy-text .logo .top-logo .soundcloud {
   padding: 0% 2% 2% 0%;
+  width: 30%;
+}
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text .logo .top-logo .soundcloud {
+    width: 27%;
+  }
 }
 @media (max-width: 500px) {
   .home .top-info .enjoy-text .logo .top-logo .soundcloud {
@@ -336,6 +361,12 @@ header nav a:hover {
 }
 .home .top-info .enjoy-text .logo .top-logo .apple {
   padding: 0% 0% 1% 1.5%;
+  width: 48%;
+}
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text .logo .top-logo .apple {
+    width: 47%;
+  }
 }
 @media (max-width: 500px) {
   .home .top-info .enjoy-text .logo .top-logo .apple {
@@ -350,13 +381,24 @@ header nav a:hover {
 .home .top-info .enjoy-text .logo .bottom-logo .youtube {
   padding: 0% 2% 2% 0%;
 }
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text .logo .bottom-logo .youtube {
+    width: 36%;
+    padding-top: 10%;
+  }
+}
 @media (max-width: 500px) {
   .home .top-info .enjoy-text .logo .bottom-logo .youtube {
     width: 35%;
   }
 }
 .home .top-info .enjoy-text .logo .bottom-logo .arrow2 {
-  padding-bottom: 5%;
+  padding-bottom: 7%;
+}
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text .logo .bottom-logo .arrow2 {
+    width: 18%;
+  }
 }
 @media (max-width: 500px) {
   .home .top-info .enjoy-text .logo .bottom-logo .arrow2 {
@@ -365,6 +407,12 @@ header nav a:hover {
 }
 .home .top-info .enjoy-text .logo .bottom-logo .spotify {
   padding: 3% 0% 1% 1.5%;
+  width: 48%;
+}
+@media (max-width: 800px) {
+  .home .top-info .enjoy-text .logo .bottom-logo .spotify {
+    width: 43%;
+  }
 }
 @media (max-width: 500px) {
   .home .top-info .enjoy-text .logo .bottom-logo .spotify {
@@ -381,6 +429,17 @@ header nav a:hover {
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-left: 1%;
+  min-height: 525px;
+}
+@media (max-width: 800px) {
+  .home .top-info .find-text {
+    min-height: 554px;
+  }
+}
+@media (max-width: 500px) {
+  .home .top-info .find-text {
+    min-height: 420px;
+  }
 }
 .home .top-info .find-text p {
   font-size: 1.8rem;
@@ -418,6 +477,17 @@ header nav a:hover {
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-right: 1%;
+  min-height: 525px;
+}
+@media (max-width: 800px) {
+  .home .bottom-info .see-text {
+    min-height: 554px;
+  }
+}
+@media (max-width: 500px) {
+  .home .bottom-info .see-text {
+    min-height: 420px;
+  }
 }
 .home .bottom-info .see-text p {
   font-size: 1.8rem;
@@ -434,6 +504,17 @@ header nav a:hover {
   width: 33%;
   border: 3px solid #E5E9EC;
   margin-left: 1%;
+  min-height: 525px;
+}
+@media (max-width: 800px) {
+  .home .bottom-info .share-text {
+    min-height: 554px;
+  }
+}
+@media (max-width: 500px) {
+  .home .bottom-info .share-text {
+    min-height: 420px;
+  }
 }
 .home .bottom-info .share-text p {
   font-size: 1.8rem;
