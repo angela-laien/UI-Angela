@@ -1,0 +1,33 @@
+// Footer Styles
+footer {
+  nav a {
+    display: block;
+    background-color: @plush-pink;
+    transition: 1.0s;
+    background: linear-gradient(to right, @plush-pink 50%, @popstar-purple 100%);
+    box-shadow: 0 0 20px #eee;
+    margin: 9% 0% 10% 40%;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    color: @whammy-white;
+    text-decoration: none;
+    padding: 1% 0% 1% 5%;
+    &:hover{
+      background: linear-gradient(to right, @popstar-purple 50%, @plush-pink 100%);
+    }
+    @media @tablet {
+      font-size: 1.6rem;
+      margin: 11% 0% 15% 40%;
+      padding: 2% 0% 2% 4.5%;
+    }
+    @media @phone {
+      font-size: 1rem;
+      margin: 11% 0% 15% 40%;
+      padding: 2% 0% 2% 4.5%;
+    }
+  }
+}
